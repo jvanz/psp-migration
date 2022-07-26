@@ -40,7 +40,7 @@ jobs:
           registry: false
           config: tests/kind-config-${{matrix.system}}.yaml
 
-      - uses: azure/setup-helm@v1.1
+      - uses: azure/setup-helm@v3.3
         with:
           version: 'v3.7.1'
 
