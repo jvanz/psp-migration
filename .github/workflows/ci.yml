@@ -33,7 +33,7 @@ jobs:
           submodules: true
 
       - name: Create kind cluster
-        uses: container-tools/kind-action@v1.7.0
+        uses: container-tools/kind-action@v2.0.0
         timeout-minutes: 5
         with: 
           kubectl_version: v1.22.2
